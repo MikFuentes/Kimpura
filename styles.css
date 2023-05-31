@@ -1,0 +1,87 @@
+:root {
+    --red: #CC1129;
+    --yellow: ;
+    --brown: ;
+    --white: white;
+    --black: black;
+}
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1 {
+    font-family: 'Shippori';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 88px;
+}
+
+h2 {
+
+}
+
+h3 {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+h4 {
+    font-family: 'Shippori';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 56px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.hero-image {
+    background-color: var(--black);
+}
+
+.hero-text {
+
+}
+
+.hero-text h1 {
+    color: var(--white)
+}
+
+.hero-text h2 {
+}
+
+.hero-text h3 {
+    color: var(--white)
+}
+
+.hero-text h4 {
+    color: var(--red)
+}
+
+.hero-text p {
+    color: var(--white)
+}
+
+.hero-text button {
+    color: var(--white);
+    background-color: var(--red)
+}
+
