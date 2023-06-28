@@ -8,13 +8,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@800&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/40edab7500.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css"> 
     <title>KIMPURA</title>
 </head>
 <body>
-    <div class="hero-image">
-        <div class="hero-text">
+    <header>
+        <div class="header">
+            <a href="#">
+                <img class="logo" src="images/logo.png" alt="KIMPURA"></img>
+            </a>
+            <div>
+                <div class="links">
+                    <h3>
+                        <a class="underline-animation" href="#">
+                            About us
+                        </a>
+                    </h3>
+                    <h3>
+                        <a class="underline-animation" href="#">
+                            Our Menu
+                        </a>
+                    </h3>
+                    <h3>
+                        <a class="underline-animation" href="#">
+                            Contact Us
+                        </a>
+                    </h3>
+                    <button id="book-now">BOOK NOW</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="gallery-section" id="hero">
+        <div class="hero-text hero-spacing">
             <h1>Truly Japanese Through The Years</h1>
             <h3> Kimpura speaks of exquisite dining experience.</h3>
             <p>From its intricately designed entrance to its lavishly styled interiors, Kimpura welcomes Japanese food lovers to a new dimension in gastronomic feast.</p>
@@ -26,25 +55,171 @@
         <h1>Our Locations</h1>
         <p>Kimpura today boasts of its modern interiors, warmer and airy ambience, all conspired to suit every customer's discriminating and luxurious taste.</p>
     </div>
-    <div class="hero-image">
-        <div class="hero-text">
+    <div>
+        <div class="tiles">
+            <div class="tile">
+                <h2>Greenbelt 5</h2>
+                <div>
+                    <h3>Hours</h3>
+                    <p>10:00 AM - 8:00 PM</p>
+                </div>
+                <div>
+                    <h3>Contact Details</h3>
+                    <p>+632 7621 6791</p>
+                    <p>+632 7621 6792</p>
+                </div>
+                <div class="buttons">
+                    <button id="book-now">Book now</button>
+                    <button id="location">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        Location
+                    </button>
+                </div>
+            </div>
+            <div class="tile">
+                <h2>Greenhills</h2>
+                <div>
+                    <h3>Hours</h3>
+                    <p>10:00 AM - 8:00 PM</p>
+                </div>
+                <div>
+                    <h3>Contact Details</h3>
+                    <p>+632 8822 5308</p>
+                    <p>+632 8822 5309</p>
+                </div>
+                <div class="buttons">
+                    <button id="book-now">Book now</button>
+                    <button id="location">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        Location
+                    </button>
+                </div>
+            </div>
+            <div class="tile">
+                <h2>Trinoma</h2>
+                <div>
+                    <h3>Hours</h3>
+                    <p>10:00 AM - 8:00 PM</p>
+                </div>
+                <div>
+                    <h3>Contact Details</h3>
+                    <p>+632 7901 0692</p>
+                    <p>+632 7901 0772</p>
+                </div>
+                <div class="buttons">
+                    <button id="book-now">Book now</button>
+                    <button id="location">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        Location
+                    </button>
+                </div>
+            </div>
+          </div>
+    </div>
+    <div class="gallery-section" id="spotlight">
+        <div class="hero-text" id="spotlight-text">
             <h4>DISH SPOTLIGHT</h4>
             <h1>Ebi Tempura</h1>
             <p>A delightful dish that never fails to captivate the taste buds with its exquisite falvors and crispy texture. Made from succulent, plump shrimp, this Japanese delicacy is coated in a light and airy batter before being deep-fried to perfection. Whether enjoyed as an appetizer or a main course, ebi tempura offers a delightful contrast of flavor and textures that is truly irresistable.</p>
             <button>VIEW FULL MENU</button>
         </div>
-    </div>
-    <div class>
         <div>
-            <h1>Sign up for news and offers today.</h1>
-            <p>Stay updated with exclusiev offers, chef's specials, and upcoming events.</p>
-            <div>
-                <p>Email Address</p>
-                <input>
-                <button>SIGN UP</button>
-            </div>
+            <img class="" src="images/tempura.png" alt="Ebi Tempura"></img>
         </div>
     </div>
+    <div class="signup-section">
+        <h1>Sign up for news and offers today.</h1>
+        <p>Stay updated with exclusive offers, chef's specials, and upcoming events.</p>
+        <div class="gform_body">
+            <input id="input_email" placeholder="Email Address">
+        </div>
+        <div class="gform_footer">
+            <button type="submit" id="gform_submit">Sign up </button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="links">
+                <ul class="no-bullet">
+                    <h3>Menu</h3>
+                    <li>
+                        <a class="underline-animation" href="#">
+                            Main Menu
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline-animation" href="#">
+                            Sushi Menu
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline-animation" href="#">
+                            Bento
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline-animation" href="#">
+                            Manager's choice
+                        </a>
+                    </li>
+                </ul>
+                <ul class="no-bullet">
+                    <h3>Promos</h3>
+                    <li>
+                        <a class="underline-animation" href="#">
+                            Holiday Treats
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline-animation" href="#">
+                            Credit Cards
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline-animation" href="#">
+                            Gift Certificates
+                        </a>
+                    </li>
+                </ul>
+                <ul class="no-bullet">
+                    <h3>Contact us</h3>
+                    <li>
+                        <a class="underline-animation" href="#">
+                            Inquiries
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline-animation" href="#">
+                            Customer Feedback
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline-animation" href="#">
+                            Careers
+                        </a>
+                    </li>
+                </ul>
+                <ul class="no-bullet">
+                    <h3>Connect</h3>
+                    <div class="socials">
+                        <li>
+                            <a href="#">
+                                <span class="fa-brands fa-square-facebook icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-solid fa-envelope icon">
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <a href="#">
+                <img class="logo" src="images/logo.png" alt="KIMPURA"></img>
+            </a>
+        </div>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
